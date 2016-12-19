@@ -56,6 +56,7 @@ precise.
 - The concept of translating Natural Language directly into RDF.
 - Enhacing the lifted data with the Twitter context.
 - An ontology project of categorized words based on meaning.
+
 ## Utilities
 Some examples of possible projects using both contributions
 together might be:
