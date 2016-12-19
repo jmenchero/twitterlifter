@@ -1,0 +1,20 @@
+import nltk
+
+def lift(tweet):
+    tokens = nltk.word_tokenize(sentence)
+    tagged = nltk.pos_tag(tokens)
+
+    grammar = nltk.parse_cfg("""
+    Sentence -> Subject Predicate
+Subject -> Noun
+Predicate -> Verb DirectObject
+
+Noun -> NNP
+Noun -> PRP
+Noun -> TwitterUser
+
+DirectObject -> NNP
+DirectObject -> TwitterUser
+Verb -> VBP
+Verb -> VBZ
+TwitterUser -> '@' NNP
