@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.co-ode.org/ontologies/ont.owl#"
+     xml:base="http://www.co-ode.org/ontologies/ont.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/ont.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Abhor -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Abhor">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Repugnant"/>
+        <rdfs:comment>find repugnant</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Abominate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Abominate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Repugnant"/>
+        <rdfs:comment>find repugnant</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Adore -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adore">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Feeling"/>
+        <rdfs:comment>love intensely</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Agree -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Agree">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Positive"/>
+        <rdfs:comment>be in accord; be in agreement</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cherish -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cherish">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Positive"/>
+        <rdfs:comment>be fond of; be attached to</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Desire -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Desire">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Positive"/>
+        <rdfs:comment>feel or have a desire for; want strongly</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Detest -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Detest">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dislike"/>
+        <rdfs:comment>dislike intensely; feel antipathy or aversion towards</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Disagree -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Disagree">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Negative"/>
+        <rdfs:comment>be of different opinions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Disapprove -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Disapprove">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Negative"/>
+        <rdfs:comment>consider bad or wrong</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dislike -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dislike">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Negative"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Like"/>
+        <rdfs:comment>have or feel a dislike or distaste for</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Execrate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Execrate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Repugnant"/>
+        <rdfs:comment>find repugnant</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Feeling -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Feeling">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Positive"/>
+        <rdfs:comment>Verbs related to feelings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hate -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hate">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Dislike"/>
+        <rdfs:comment>dislike intensely; feel antipathy or aversion towards</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Have -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Have">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Is -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Is">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Like -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Like">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Feeling"/>
+        <rdfs:comment>find enjoyable or agreeable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Looks_like -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Looks_like">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Seems"/>
+        <rdfs:comment>give a certain impression or have a certain outward aspect</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Love -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Love">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Feeling"/>
+        <rdfs:comment>have a great affection or liking for</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Need -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Need">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Desire"/>
+        <rdfs:comment>require as useful, just, or proper</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Negative -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Negative">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neutral -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neutral">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Positive -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Positive">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Repugnant -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Repugnant">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Seems -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Seems">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neutral"/>
+        <rdfs:comment>give a certain impression or have a certain outward aspect</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Verb -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Verb">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Word"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Want -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Want">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Desire"/>
+        <rdfs:comment>feel or have a desire for; want strongly</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Wish -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Wish">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Desire"/>
+        <rdfs:comment>hope for;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Word -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Word"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Yearn -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Yearn">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Desire"/>
+        <rdfs:comment>desire strongly or persistently</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
